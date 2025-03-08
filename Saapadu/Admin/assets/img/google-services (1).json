@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "507312397854",
+    "project_id": "rec-mart",
+    "storage_bucket": "rec-mart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507312397854:android:2001ca843a363b400c580f",
+        "android_client_info": {
+          "package_name": "com.example.rmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507312397854-3uo5vmoqovef5sbjd9fug0eterqh5poi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rmart",
+            "certificate_hash": "e7e98e090d3ccb027a4137ca04a9dde24d5f06d2"
+          }
+        },
+        {
+          "client_id": "507312397854-bodt3fpcrl3p4n69au6f62c465jb5oql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC14QhlKMbZPAkbpRT7UE3zNXqLIEpZW3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507312397854-bodt3fpcrl3p4n69au6f62c465jb5oql.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "507312397854-2dvq85obqi8etk5gi4hd9esu0ti1m2h6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rmart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

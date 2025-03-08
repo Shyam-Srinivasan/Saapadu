@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "808823490320",
+    "firebase_url": "https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "saapadu-groups",
+    "storage_bucket": "saapadu-groups.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808823490320:android:681df5a6546f55a0b08795",
+        "android_client_info": {
+          "package_name": "com.saapadu_groups.saapadu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808823490320-dr9h5ts0rs39gca5127qt8sm2blku71p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saapadu_groups.saapadu",
+            "certificate_hash": "97748f6b33c87cdb81096d7768fb7e5bebefd6a1"
+          }
+        },
+        {
+          "client_id": "808823490320-lmrth12jjbqbhind5diju9fuf4jah2pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUtLlxNv0H471qgnR0othHGoCHWApEFv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808823490320-lmrth12jjbqbhind5diju9fuf4jah2pb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808823490320-4m1cjkb315ugk641damg57dhji5u0dfs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.saapadugroups.saapadu.user"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808823490320:android:0bd44918706e6717b08795",
+        "android_client_info": {
+          "package_name": "com.saapadu_groups.saapadu.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808823490320-i1s7gdippo8sth7ljpc224bh608q7j2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saapadu_groups.saapadu.user",
+            "certificate_hash": "97748f6b33c87cdb81096d7768fb7e5bebefd6a1"
+          }
+        },
+        {
+          "client_id": "808823490320-lmrth12jjbqbhind5diju9fuf4jah2pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUtLlxNv0H471qgnR0othHGoCHWApEFv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808823490320-lmrth12jjbqbhind5diju9fuf4jah2pb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808823490320-4m1cjkb315ugk641damg57dhji5u0dfs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.saapadugroups.saapadu.user"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

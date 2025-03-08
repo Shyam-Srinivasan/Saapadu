@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>808823490320-br18ql2d0su3f6rdnchgue3ljgoikj7i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.808823490320-br18ql2d0su3f6rdnchgue3ljgoikj7i</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>808823490320-dr9h5ts0rs39gca5127qt8sm2blku71p.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACA0tVO9mNPTt45IQp9zhpZyKiLV3ycH4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>808823490320</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.saapadu-groups.saapadu.user</string>
+	<key>PROJECT_ID</key>
+	<string>saapadu-groups</string>
+	<key>STORAGE_BUCKET</key>
+	<string>saapadu-groups.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:808823490320:ios:184ad5182efb90ffb08795</string>
+	<key>DATABASE_URL</key>
+	<string>https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

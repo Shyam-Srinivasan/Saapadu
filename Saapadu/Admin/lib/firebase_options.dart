@@ -67,6 +67,8 @@ class DefaultFirebaseOptions {
     projectId: 'saapadu-groups',
     databaseURL: 'https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'saapadu-groups.firebasestorage.app',
+    androidClientId: '808823490320-dr9h5ts0rs39gca5127qt8sm2blku71p.apps.googleusercontent.com',
+    iosClientId: '808823490320-togbdv7c236oc0mpk17ctu9u7ouv7vgd.apps.googleusercontent.com',
     iosBundleId: 'com.saapadugroups.saapadu.saapadu',
   );
 
@@ -77,6 +79,8 @@ class DefaultFirebaseOptions {
     projectId: 'saapadu-groups',
     databaseURL: 'https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'saapadu-groups.firebasestorage.app',
+    androidClientId: '808823490320-dr9h5ts0rs39gca5127qt8sm2blku71p.apps.googleusercontent.com',
+    iosClientId: '808823490320-togbdv7c236oc0mpk17ctu9u7ouv7vgd.apps.googleusercontent.com',
     iosBundleId: 'com.saapadugroups.saapadu.saapadu',
   );
 

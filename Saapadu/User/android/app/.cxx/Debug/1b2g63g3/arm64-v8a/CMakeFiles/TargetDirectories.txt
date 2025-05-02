@@ -1,0 +1,2 @@
+C:/Users/SHYAM/Documents/Saapadu Groups/Saapadu/User/android/app/.cxx/Debug/1b2g63g3/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/SHYAM/Documents/Saapadu Groups/Saapadu/User/android/app/.cxx/Debug/1b2g63g3/arm64-v8a/CMakeFiles/rebuild_cache.dir

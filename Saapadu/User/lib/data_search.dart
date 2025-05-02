@@ -4,7 +4,6 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:lottie/lottie.dart';
 import 'package:user/add_to_cart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});

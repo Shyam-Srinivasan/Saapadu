@@ -13,8 +13,8 @@ import 'quantity_manager.dart';
 // import 'package:rmart/quantity_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
-import 'package:file_picker/file_picker.dart';
-import 'package:firebase_storage/firebase_storage.dart';
+// import 'package:file_picker/file_picker.dart';
+// import 'package:firebase_storage/firebase_storage.dart';
 
 class HomePage extends StatefulWidget {
   final String collegeName;
@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
     _activateListeners();
   }
 
-  Future<void> _pickImage() async {
+ /* Future<void> _pickImage() async {
     FilePickerResult? result = await FilePicker.platform.pickFiles(
       type: FileType.image, // Allow only image files
     );
@@ -65,6 +65,8 @@ class _HomePageState extends State<HomePage> {
       }
     }
   }
+
+  */
 
   Future<String?> getSelectedShop() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -242,15 +244,16 @@ class _HomePageState extends State<HomePage> {
             TextButton(
               child: Text('Add'),
               onPressed: () async {
-                if (_categoryController.text.isNotEmpty) {
-                  // Upload image to Firebase Storage and get the download URL
-                  String? imageUrl;
-                  if (kIsWeb && _selectedImageBytes != null) {
-                    imageUrl = await _uploadImageToFirebaseWeb(_selectedImageBytes!);
-                  } else if (_selectedImage != null) {
-                    imageUrl = await _uploadImageToFirebase(_selectedImage!);
-                  }
+                // if (_categoryController.text.isNotEmpty) {
+                //   // Upload image to Firebase Storage and get the download URL
+                //   String? imageUrl;
+                //   if (kIsWeb && _selectedImageBytes != null) {
+                //     imageUrl = await _uploadImageToFirebaseWeb(_selectedImageBytes!);
+                //   } else if (_selectedImage != null) {
+                //     imageUrl = await _uploadImageToFirebase(_selectedImage!);
+                //   }
 
+                if (_categoryController.text.isNotEmpty) {
                   // Add the category to Firebase with the image URL
                   _addCategoryToFirebase(
                       _categoryController.text,
@@ -266,7 +269,7 @@ class _HomePageState extends State<HomePage> {
 
                   Navigator.of(context).pop();
                 }
-              },
+              }
             ),
           ],
         );
@@ -433,7 +436,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   // Function to upload image to Firebase Storage
-  Future<String?> _uploadImageToFirebase(File imageFile) async {
+  /* Future<String?> _uploadImageToFirebase(File imageFile) async {
     try {
       final storageRef = FirebaseStorage.instance
           .ref()
@@ -449,9 +452,9 @@ class _HomePageState extends State<HomePage> {
       print("Failed to upload image: $e");
       return null;
     }
-  }
+  } */
 
-  Future<String?> _uploadImageToFirebaseWeb(Uint8List imageBytes) async {
+  /* Future<String?> _uploadImageToFirebaseWeb(Uint8List imageBytes) async {
     try {
       final storageRef = FirebaseStorage.instance
           .ref()
@@ -467,7 +470,7 @@ class _HomePageState extends State<HomePage> {
       print("Failed to upload image: $e");
       return null;
     }
-  }
+  } */
 
   Widget buildImagePreview() {
     if (kIsWeb) {

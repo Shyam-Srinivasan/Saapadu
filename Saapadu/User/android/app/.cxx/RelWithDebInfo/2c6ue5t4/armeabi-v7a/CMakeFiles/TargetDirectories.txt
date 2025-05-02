@@ -1,0 +1,2 @@
+C:/Users/SHYAM/Documents/Saapadu Groups/Saapadu/User/android/app/.cxx/RelWithDebInfo/2c6ue5t4/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/SHYAM/Documents/Saapadu Groups/Saapadu/User/android/app/.cxx/RelWithDebInfo/2c6ue5t4/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:saapadu/create_shop.dart';
 import 'package:saapadu/signup_page.dart';
-
 import 'firebase_options.dart';
 
 void main() async{

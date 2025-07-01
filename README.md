@@ -2,8 +2,8 @@
 
 A mobile application designed to revolutionize food ordering within educational institutions. This system provides a seamless experience for students and faculty to order food from campus shops while eliminating long queues and wait times.
 
-**Features**
-**For Users (Students & Faculty)**
+### Features
+### For Users (Students & Faculty)
 - **Institutional Authentication** - Secure login using official college credentials
 - **Shop Selection** - Browse and select from available campus food shops
 - **Real-time Menu** - View updated menu items and their availability

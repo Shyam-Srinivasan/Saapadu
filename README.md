@@ -1,4 +1,4 @@
-**Saapadu - College Food Ordering System**
+### **Saapadu - College Food Ordering System**
 
 A mobile application designed to revolutionize food ordering within educational institutions. This system provides a seamless experience for students and faculty to order food from campus shops while eliminating long queues and wait times.
 

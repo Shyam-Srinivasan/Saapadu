@@ -138,18 +138,20 @@ class _QuantityManageState extends State<QuantityManage> {
             // Quantity can be changed
             Flexible(
               child: SizedBox(
-                width: 35,
-                height: 30,
+                // width: 35,
+                // height: 45,
                 child: Center(
                   child: TextField(
                     controller: _controller,
                     textAlign: TextAlign.center,
                     keyboardType: TextInputType.number,
-                    style: const TextStyle(color: Colors.white, fontSize: 16),
+                    style: const TextStyle(color: Colors.white, fontSize: 16, height: 1.0),
                     decoration: const InputDecoration(
+                      isCollapsed: true,
                       border: InputBorder.none,
-                      contentPadding: EdgeInsets.symmetric(vertical: 15.0),
+                      contentPadding: EdgeInsets.symmetric(vertical: 0.0),
                     ),
+                    textAlignVertical: TextAlignVertical.center,
                     onSubmitted: _onQuantityChanged,
                     onTapOutside: (event) {
                       FocusManager.instance.primaryFocus?.unfocus();

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:saapadu/create_shop.dart';
 import 'package:saapadu/signup_page.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class SignInPage extends StatefulWidget {
   const SignInPage({super.key});
@@ -21,7 +22,7 @@ class _SignInPageState extends State<SignInPage> {
     super.dispose();
   }
 
-  void signIn() {
+  void signIn() async{
     String collegeName = _collegeName.text.trim();
     String emailId = _emailId.text.trim();
 
@@ -29,6 +30,11 @@ class _SignInPageState extends State<SignInPage> {
       Get.snackbar("Error", "Please fill all the fields", backgroundColor: Colors.red, colorText: Colors.white);
       return;
     }
+
+    // Save session info
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setString('collegeName', collegeName);
+    await prefs.setString('emailId', emailId);
 
     // Get.snackbar("Success", "Signed in Successfully!", backgroundColor: Colors.green, colorText: Colors.white);
     Navigator.pushReplacement(

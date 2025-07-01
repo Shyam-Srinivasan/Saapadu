@@ -695,7 +695,7 @@ class _HomePageState extends State<HomePage> {
             child: Text(
               widget.shopName,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: height * 0.04,
                 letterSpacing: 2,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
@@ -750,7 +750,7 @@ class _HomePageState extends State<HomePage> {
             ),
             Divider(
               height: height*0.02,
-              thickness: 2,
+              thickness: 1,
               color: Colors.deepPurple,
             ),
             Expanded(
@@ -777,198 +777,197 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  Widget _buildFoodGrid(String category) {
-    // Get the items based on the selected category, filter by quantity > 0
+  Widget _buildFoodGrid(String category){
     final items = category == 'All'
         ? _categoryItems.values.expand((e) => e).toList()
         : _categoryItems[category]?.toList() ?? [];
     final width = MediaQuery.sizeOf(context).width;
     final height = MediaQuery.sizeOf(context).height;
+    // print("Width is ");
+    // print(width);
+    // print((width*0.005).toInt());
 
     return GridView.builder(
       padding: const EdgeInsets.all(20),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 5,
-        crossAxisSpacing: 25,
-        mainAxisSpacing: 25,
-      ),
-      itemCount: items.length + 1,
-      itemBuilder: (context, index) {
-        if(index == items.length){
-          return LayoutBuilder(
-            builder: (context, constraints) {
-              double width = constraints.maxWidth;
-              double height = constraints.maxHeight;
-              return MouseRegion(
-                cursor: SystemMouseCursors.click,
-                child: GestureDetector(
-                  onTap: () {
-                    _showAddFoodDialog(category); // Open the "Add Food" dialog
-                  },
-                  child: Container(
-                    width: width * 0.5,
-                    height: height * 0.25,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(width * 0.02),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.grey.withOpacity(0.5),
-                          spreadRadius: width * 0.01,
-                          blurRadius: width * 0.02,
-                          offset: const Offset(0, 3),
-                        ),
-                      ],
-                    ),
-                    child: Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(
-                            Icons.add,
-                            size: width * 0.15,
-                            color: Colors.deepPurple,
-                          ),
-                          Text(
-                            "Add Food",
-                            style: TextStyle(
-                              fontSize: width * 0.06,
-                              fontWeight: FontWeight.bold,
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: (width * 0.005).toInt(),
+          crossAxisSpacing: 25,
+          mainAxisSpacing: 25,
+        ),
+        itemCount: items.length + 1,
+        itemBuilder: (context, index){
+          if(index == items.length){
+            return LayoutBuilder(
+              builder: (context, constraints) {
+                double width = constraints.maxWidth;
+                double height = constraints.maxHeight;
+                return MouseRegion(
+                  cursor: SystemMouseCursors.click,
+                  child: GestureDetector(
+                    onTap: () => _showAddFoodDialog(category),
+                    child: Container(
+                      width: 170,
+                      height: 225,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.withOpacity(0.5),
+                            spreadRadius: 3,
+                            blurRadius: 10,
+                            offset: const Offset(0, 3)
+                          )
+                        ]
+                      ),
+                      child: Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(
+                              Icons.add,
+                              size: 50,
                               color: Colors.deepPurple,
                             ),
-                          )
-                        ],
+                            Text(
+                              "Add Food",
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.deepPurple
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                     ),
                   ),
-                ),
-              );
-            },
-          );
-        }
-        final item = items[index];
-        final itemName = item['name'];
-        final itemPrice = item['price'];
-        final itemImage = item['image'];
-        final itemQuantity = item['quantity'];
-        final stock = _stockItems[itemName];
-
-        return LayoutBuilder(
+                );
+              },
+            );
+          }
+          final item = items[index];
+          final itemName = item['name'];
+          final itemPrice = item['price'];
+          final itemImage = item['image'];
+          final itemQuantity = item['quantity'];
+          final stock = _stockItems[itemName];
+          return LayoutBuilder(
             builder: (context, constraints){
               double width = constraints.maxWidth;
               double height = constraints.maxHeight;
+
+              // print("Layout Builder width: $width");
+              // print("Layout Builder height:  $height");
+
               return Container(
-                width: width*0.5,
-                height: height*0.25, // Ensure this matches the height in PopularItemsWidget
+                width: 170,
+                height: 25,
                 decoration: BoxDecoration(
                   color: Colors.white,
-                  borderRadius: BorderRadius.circular(width*0.02),
+                  borderRadius: BorderRadius.circular(10),
                   border: Border.all(
-                      color: itemQuantity == 0 ? Colors.red : Colors.transparent
+                    color: itemQuantity == 0 ? Colors.red : Colors.transparent,
                   ),
                   boxShadow: [
                     BoxShadow(
                       color: Colors.grey.withOpacity(0.5),
-                      spreadRadius: width*0.01,
-                      blurRadius: width*0.02,
+                      spreadRadius: 3,
+                      blurRadius: 10,
                       offset: const Offset(0, 3),
-                    ),
-                  ],
+                    )
+                  ]
                 ),
                 child: Padding(
                   padding: EdgeInsets.symmetric(
-                    horizontal: width*0.02,
-                    vertical: height*0.02,
+                    horizontal: width * 0.001,
+                    vertical: height * 0.001,
                   ),
                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween, // Ensure content is spaced evenly
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween, // Ensure content is spaced evenly
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           TextButton(
                             child: Text(
                               "Out of Stock",
                               style: TextStyle(
-                                  fontSize: width*0.06,
-                                  color: itemQuantity == 0 ? Colors.red : Colors.deepPurple
-                              ),
+                                fontSize: 15,
+                                color: itemQuantity == 0 ? Colors.red : Colors.deepPurple
+                              )
                             ),
-                            onPressed: (){
-                              // updateStockCallback();
-                              stock?.updateStock();
-                            },
+                            onPressed: () => stock?.updateStock(),
                           ),
                           IconButton(
-                              onPressed: (){
-                                print(category);
-                                print(itemName);
-                                editFoodItem(context, widget.collegeName, widget.shopName, category, itemName);
-                              },
-                              icon: Icon(
-                                  Icons.edit,
-                                  color: Colors.deepPurple,
-                                  size: width*0.06
-                              )
-                          ),
+                            onPressed: () => editFoodItem(context, widget.collegeName, widget.shopName, category, itemName),
+                            icon: Icon(
+                              Icons.edit,
+                              color: Colors.deepPurple,
+                              size: 16,
+                            ),
+                          )
                         ],
                       ),
                       Expanded(
                         child: ClipRRect(
-                            borderRadius: BorderRadius.circular(width*0.02),
-                            child: AspectRatio(
-                              aspectRatio: 16/9,
-                              child: Image.asset(
-                                itemImage ?? 'assets/img/default.jpeg',
-                                // height: 100,
-                                width: double.infinity,
-                                fit: BoxFit.cover, // Ensure the image covers the full height
-                              ),
-                            )
+                          borderRadius: BorderRadius.circular(2),
+                          child: Image.asset(
+                            itemImage ?? 'assets/img/default.jpeg',
+                            width: double.infinity,
+                            height: double.infinity,  // Set to fill the height as well
+                            fit: BoxFit.cover,        // This will cover the container and fill the width/height
+                          ),
                         ),
                       ),
+
                       Text(
                         " $itemName",
                         style: TextStyle(
-                          fontSize: width*0.06,
-                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold
                         ),
                       ),
-                      // const SizedBox(height: 4),
+                      SizedBox(
+                          height: 5
+                      ),
                       Padding(
-                        padding: EdgeInsets.symmetric(horizontal: width*0.04),
+                        padding: EdgeInsets.symmetric(horizontal: 10),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
                               "₹${itemPrice.toInt()}",
                               style: TextStyle(
-                                fontSize: width*0.06,
-                                fontWeight: FontWeight.bold,
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold
                               ),
                             ),
                             itemQuantity > 0
-                                ? QuantityManage(foodItem: item, categoryName: category, collegeName: widget.collegeName, shopName: widget.shopName) // Show Add to Cart button if in stock
+                            ? QuantityManage(
+                              foodItem: item,
+                              categoryName: category,
+                              collegeName: widget.collegeName,
+                              shopName: widget.shopName,
+                            )
                                 : Text(
                               'Out of Stock',
                               style: TextStyle(
-                                color: Colors.red,
-                                fontSize: width*0.06,
+                                fontSize: 15,
                                 fontWeight: FontWeight.bold,
+                                color: Colors.red
                               ),
-                            ),
+                            )
                           ],
                         ),
-                      ),
+                      )
                     ],
                   ),
                 ),
               );
-            }
-        );
-      },
+            },
+          );
+        }
     );
   }
-
 }
-

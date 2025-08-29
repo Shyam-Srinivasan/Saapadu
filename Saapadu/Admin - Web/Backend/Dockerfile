@@ -1,7 +1,4 @@
-FROM ubuntu:latest
-LABEL authors="SHYAM"
 
-ENTRYPOINT ["top", "-b"]
 # Stage 1: Build the application using Maven
 # Use the appropriate base image for your Java version (e.g., openjdk:17)
 FROM maven:3.9.8-eclipse-temurin-21 AS build
@@ -25,6 +22,7 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 # The PORT environment variable is set by Render. Your app will listen on this port.
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
 
 
 

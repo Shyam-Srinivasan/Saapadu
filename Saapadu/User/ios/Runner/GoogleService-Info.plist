@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>808823490320-br18ql2d0su3f6rdnchgue3ljgoikj7i.apps.googleusercontent.com</string>
+	<string>808823490320-2i3cjvuu6mjo2ckij4ujq7pnkd914eg6.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.808823490320-br18ql2d0su3f6rdnchgue3ljgoikj7i</string>
+	<string>com.googleusercontent.apps.808823490320-2i3cjvuu6mjo2ckij4ujq7pnkd914eg6</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>808823490320-dr9h5ts0rs39gca5127qt8sm2blku71p.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.saapadu-groups.saapadu.user</string>
+	<string>com.saapadu.saapadu-user</string>
 	<key>PROJECT_ID</key>
 	<string>saapadu-groups</string>
 	<key>STORAGE_BUCKET</key>
@@ -31,7 +31,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:808823490320:ios:184ad5182efb90ffb08795</string>
+	<string>1:808823490320:ios:043b0b14a9d15a46b08795</string>
 	<key>DATABASE_URL</key>
 	<string>https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>

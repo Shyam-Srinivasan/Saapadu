@@ -32,6 +32,30 @@
   <title>saapadu</title>
   <link rel="manifest" href="manifest.json">
 </head>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD7PwpuUealIv-DRKhN46qVu5w_a7KZOg8",
+    authDomain: "saapadu-groups.firebaseapp.com",
+    databaseURL: "https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "saapadu-groups",
+    storageBucket: "saapadu-groups.firebasestorage.app",
+    messagingSenderId: "808823490320",
+    appId: "1:808823490320:web:7d3908c7af9266f4b08795",
+    measurementId: "G-85J0TDL2J6"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>

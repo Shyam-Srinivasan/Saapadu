@@ -134,7 +134,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    "Create an Organization",
+                    "Create an Organization not",
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: isSmallScreen ? 24 : 30,

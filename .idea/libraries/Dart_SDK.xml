@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Dart SDK">
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../flutter/bin/cache/dart-sdk/lib/_internal" />
       <root url="file://$PROJECT_DIR$/../../../../flutter/bin/cache/dart-sdk/lib/async" />
       <root url="file://$PROJECT_DIR$/../../../../flutter/bin/cache/dart-sdk/lib/cli" />
       <root url="file://$PROJECT_DIR$/../../../../flutter/bin/cache/dart-sdk/lib/collection" />

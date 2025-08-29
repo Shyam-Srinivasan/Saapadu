@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:saapadu/create_shop.dart';
+import 'package:saapadu/homepage.dart';
 import 'package:saapadu/signup_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -37,9 +38,10 @@ class _SignInPageState extends State<SignInPage> {
     await prefs.setString('emailId', emailId);
 
     // Get.snackbar("Success", "Signed in Successfully!", backgroundColor: Colors.green, colorText: Colors.white);
-    Navigator.pushReplacement(
+    Navigator.pushReplacementNamed(
         context,
-        MaterialPageRoute(builder: (context) => CreateShop(collegeName: collegeName,))
+        '/home'
+        // MaterialPageRoute(builder: (context) => CreateShop(collegeName: collegeName,))
     );
   }
 

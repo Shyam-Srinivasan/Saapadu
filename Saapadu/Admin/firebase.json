@@ -1,1 +1,40 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"saapadu-groups","appId":"1:808823490320:android:681df5a6546f55a0b08795","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"saapadu-groups","configurations":{"android":"1:808823490320:android:681df5a6546f55a0b08795","ios":"1:808823490320:ios:73e8ad7ac51271ffb08795","macos":"1:808823490320:ios:73e8ad7ac51271ffb08795","web":"1:808823490320:web:560ed4b3db5e14d6b08795","windows":"1:808823490320:web:88431df9ff29ecffb08795"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "saapadu-groups",
+          "appId": "1:808823490320:android:9175cd88a88a8020b08795",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "saapadu-groups",
+          "configurations": {
+            "android": "1:808823490320:android:9175cd88a88a8020b08795",
+            "ios": "1:808823490320:ios:b077c51d066fdd27b08795",
+            "macos": "1:808823490320:ios:b077c51d066fdd27b08795",
+            "web": "1:808823490320:web:7d3908c7af9266f4b08795",
+            "windows": "1:808823490320:web:b1eeb4c91d2db41eb08795"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "site": "saapadu-admin",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

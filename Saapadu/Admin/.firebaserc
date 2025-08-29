@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "saapadu-groups"
+  },
+  "targets": {
+    "saapadu-groups": {
+      "hosting": {
+        "saapaduAdmin": [
+          "saapadu-admin"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

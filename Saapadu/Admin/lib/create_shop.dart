@@ -3,6 +3,8 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:get/get.dart';
 import 'package:saapadu/home_page.dart';
 
+import 'layout.dart';
+
 class CreateShop extends StatefulWidget {
   final String collegeName;
   const CreateShop({super.key, required this.collegeName});
@@ -136,7 +138,7 @@ class _CreateShopState extends State<CreateShop> {
                           // Navigate to shop
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => HomePage(collegeName: widget.collegeName, shopName: shop['name']))
+                            MaterialPageRoute(builder: (context) => Layout(collegeName: widget.collegeName, child: HomePage(collegeName: widget.collegeName, shopName: shop['name']),))
                           );
                         },
                         child: Container(

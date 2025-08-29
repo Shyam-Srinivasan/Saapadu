@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5283da38-1eda-4986-8685-0e9a5c16bbb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/android/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/ios/Runner/GoogleService-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/create_shop.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/firebase_options.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/lib/firebase_options.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/home_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/quantity_manager.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/signin_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/signup_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/lib/stock.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Admin/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../User/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../User/android/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../User/ios/Runner/GoogleService-Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../User/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../User/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../User/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../User/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="31ty7AevamztPg7Ahb69BJteliX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5283da38-1eda-4986-8685-0e9a5c16bbb6" name="Changes" comment="" />
+      <created>1756357495819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756357495819</updated>
+      <workItem from="1756357497030" duration="419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

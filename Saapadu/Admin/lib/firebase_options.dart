@@ -42,18 +42,18 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyD7PwpuUealIv-DRKhN46qVu5w_a7KZOg8',
-    appId: '1:808823490320:web:560ed4b3db5e14d6b08795',
+    appId: '1:808823490320:web:7d3908c7af9266f4b08795',
     messagingSenderId: '808823490320',
     projectId: 'saapadu-groups',
     authDomain: 'saapadu-groups.firebaseapp.com',
     databaseURL: 'https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'saapadu-groups.firebasestorage.app',
-    measurementId: 'G-WH5KTBTTGB',
+    measurementId: 'G-85J0TDL2J6',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyCUtLlxNv0H471qgnR0othHGoCHWApEFv0',
-    appId: '1:808823490320:android:681df5a6546f55a0b08795',
+    appId: '1:808823490320:android:9175cd88a88a8020b08795',
     messagingSenderId: '808823490320',
     projectId: 'saapadu-groups',
     databaseURL: 'https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app',
@@ -62,7 +62,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyACA0tVO9mNPTt45IQp9zhpZyKiLV3ycH4',
-    appId: '1:808823490320:ios:73e8ad7ac51271ffb08795',
+    appId: '1:808823490320:ios:b077c51d066fdd27b08795',
     messagingSenderId: '808823490320',
     projectId: 'saapadu-groups',
     databaseURL: 'https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app',
@@ -74,7 +74,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyACA0tVO9mNPTt45IQp9zhpZyKiLV3ycH4',
-    appId: '1:808823490320:ios:73e8ad7ac51271ffb08795',
+    appId: '1:808823490320:ios:b077c51d066fdd27b08795',
     messagingSenderId: '808823490320',
     projectId: 'saapadu-groups',
     databaseURL: 'https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app',
@@ -86,13 +86,13 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyD7PwpuUealIv-DRKhN46qVu5w_a7KZOg8',
-    appId: '1:808823490320:web:88431df9ff29ecffb08795',
+    appId: '1:808823490320:web:b1eeb4c91d2db41eb08795',
     messagingSenderId: '808823490320',
     projectId: 'saapadu-groups',
     authDomain: 'saapadu-groups.firebaseapp.com',
     databaseURL: 'https://saapadu-groups-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'saapadu-groups.firebasestorage.app',
-    measurementId: 'G-BFXW86ZHGY',
+    measurementId: 'G-0GNRY9ED14',
   );
 
 }

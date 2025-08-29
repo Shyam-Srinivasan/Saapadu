@@ -6,7 +6,7 @@ import {ToastContainer, toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const API_BASE = `http://${window.location.hostname}:8080`;
+const API_BASE = process.env.REACT_APP_API_BASE;
 
 export const SignInPage = () => {
     const [form, setForm] = useState({

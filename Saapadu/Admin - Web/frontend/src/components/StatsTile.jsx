@@ -21,16 +21,17 @@ export const StatsTile = ({
         const fetchData = async () => {
 
             if (!college?.id) return;
+            const API = process.env.REACT_APP_API_BASE;
 
             let API_BASE;
             if (name === "Total Orders") {
-                API_BASE = `http://${window.location.hostname}:8080/home/total-orders`;
+                API_BASE = `${API}/home/total-orders`;
             } else if (name === "Pending Orders") {
-                API_BASE = `http://${window.location.hostname}:8080/home/pending-orders`;
+                API_BASE = `${API}/home/pending-orders`;
             } else if (name === "Completed Orders") {
-                API_BASE = `http://${window.location.hostname}:8080/home/completed-orders`;
+                API_BASE = `${API}/home/completed-orders`;
             } else if(name === "Total Revenue"){
-                API_BASE = `http://${window.location.hostname}:8080/home/total-revenue`;
+                API_BASE = `${API}/home/total-revenue`;
             }
             try {
                 const res = await axios.get(API_BASE, {

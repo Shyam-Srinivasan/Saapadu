@@ -19,11 +19,12 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Stage 2: Create the final, smaller production image
-FROM eclipse-temurin:21-jdk-slim
+FROM openjdk:21-jdk-slim
 WORKDIR /app
 # Copy the built JAR file from the 'build' stage
 COPY --from=build /app/target/*.jar app.jar
 # The PORT environment variable is set by Render. Your app will listen on this port.
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
 
 

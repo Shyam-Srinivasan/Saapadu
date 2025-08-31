@@ -23,20 +23,20 @@ public class ShopController {
             if(shops.isEmpty() || shops == null){
                 return new ResponseEntity<>(null, HttpStatus.NO_CONTENT);
             }
-            return new ResponseEntity<>(shops, HttpStatus.FOUND);
+            return new ResponseEntity<>(shops, HttpStatus.OK);
         } catch (Exception e){
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
-    @GetMapping("/shopList/fetchShop-shopId")
+    @GetMapping("/shopList/fetchShopById")
     ResponseEntity<ShopModel> fetchShopById(@RequestParam String shopId){
         try{
             ShopModel shop = shopService.fetchShopById(shopId);
             if(shop == null){
                 return new ResponseEntity<>(null, HttpStatus.NOT_FOUND);
             }
-            return new ResponseEntity<>(shop, HttpStatus.FOUND);
+            return new ResponseEntity<>(shop, HttpStatus.OK);
         } catch (Exception e){
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }

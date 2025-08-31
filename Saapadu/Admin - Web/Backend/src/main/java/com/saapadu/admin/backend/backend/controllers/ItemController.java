@@ -45,10 +45,11 @@ public class ItemController {
             item.setItemName(updatedItem.getItemName());
             item.setCategoryId(updatedItem.getCategoryId());
             item.setImagePath(updatedItem.getImagePath());
+            item.setPrice(updatedItem.getPrice());
             item.setStockQuantity(updatedItem.getStockQuantity());
 
             ItemModel save = itemService.updateItem(item);
-            return new ResponseEntity<>(save, HttpStatus.CREATED);
+            return new ResponseEntity<>(save, HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
         }

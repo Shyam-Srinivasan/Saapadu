@@ -65,10 +65,10 @@ public class ItemService {
                 String cId = itemSnap.child("category_id").getValue(String.class);
 
                 if (categoryId.equals(cId)) {
-                    String itemName = snapshot.child("item_name").getValue(String.class);
-                    String imagePath = snapshot.child("image_path").getValue(String.class);
-                    double price = snapshot.child("price").getValue(double.class);
-                    Integer stockQuantity = snapshot.child("stock_quantity").getValue(Integer.class);
+                    String itemName = itemSnap.child("item_name").getValue(String.class);
+                    String imagePath = itemSnap.child("image_path").getValue(String.class);
+                    double price = itemSnap.child("price").getValue(double.class);
+                    Integer stockQuantity = itemSnap.child("stock_quantity").getValue(Integer.class);
 
                     items.add(new ItemModel(itemId, itemName, imagePath, cId, price, stockQuantity));
                 }

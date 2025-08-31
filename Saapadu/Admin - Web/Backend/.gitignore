@@ -31,3 +31,23 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Keys ###
+src/main/resources/firebase-service-account-key.json
+# Firebase service account key
+firebase-service-account-key.json
+
+# Log files
+*.log
+
+# Maven build artifacts
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+
+# Misc
+.DS_Store

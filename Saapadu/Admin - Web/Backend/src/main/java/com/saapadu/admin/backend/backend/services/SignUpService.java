@@ -1,19 +1,17 @@
-package com.saapadu.admin.service;
+package com.saapadu.admin.backend.backend.services;
 
 import com.google.api.core.ApiFuture;
 import com.google.firebase.database.*;
-import com.saapadu.admin.SignUpRequest;
+import com.saapadu.admin.backend.backend.models.SignUpModel;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
 
 @Service
 public class SignUpService {
-    public CompletableFuture<String> createOrganization(SignUpRequest request){
+    public CompletableFuture<String> createOrganization(SignUpModel request){
         CompletableFuture<String> future = new CompletableFuture<>();;
         DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference("colleges");
         

@@ -1,4 +1,4 @@
-package com.saapadu.admin;
+package com.saapadu.admin.backend.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

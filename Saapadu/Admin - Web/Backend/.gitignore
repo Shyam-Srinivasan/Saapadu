@@ -4,9 +4,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# Secrets and credentials - DO NOT COMMIT
-/src/main/resources/serviceAccountKey.json
-
 ### STS ###
 .apt_generated
 .classpath

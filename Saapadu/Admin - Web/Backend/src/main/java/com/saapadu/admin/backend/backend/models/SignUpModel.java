@@ -1,8 +1,8 @@
-package com.saapadu.admin;
+package com.saapadu.admin.backend.backend.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class SignUpRequest {
+public class SignUpModel {
     @JsonProperty("college_name")
     public String collegeName;
     @JsonProperty("email_id")

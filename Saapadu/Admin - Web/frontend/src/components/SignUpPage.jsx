@@ -15,7 +15,7 @@ export const SignUpPage = () => {
 
     const navigate = useNavigate();
 
-    const API_BASE = process.env.REACT_APP_API_BASE;
+    const API_BASE = `http://${window.location.hostname}:8080`;
 
     const handleChange = (e) => {
         setForm({...form, [e.target.name]: e.target.value});
@@ -47,27 +47,27 @@ export const SignUpPage = () => {
                 <Col xs={12} sm={10} md={8} lg={6} xl={5}>
                     <h1 className="text-center mb-4 text-dark fs-6">Sign Up for Your Organization</h1>
                     <Form className="p-4 shadow rounded bg-white" onSubmit={handleSubmit}>
-                        <Form.Group className="mb-3">
+                        <Form.Group className="mb-3 d-block text-start">
                             <Form.Label className='text-dark'>College Name</Form.Label>
                             <Form.Control name="college_name" type="text" value={form.college_name}
                                           onChange={handleChange} required/>
                         </Form.Group>
-                        <Form.Group className="mb-3">
+                        <Form.Group className="mb-3 d-block text-start">
                             <Form.Label className='text-dark'>College Email Address</Form.Label>
                             <Form.Control name="email_id" type="email" value={form.email_id} onChange={handleChange}
                                           required/>
                         </Form.Group>
-                        <Form.Group className="mb-3">
+                        <Form.Group className="mb-3 d-block text-start">
                             <Form.Label className='text-dark'>College Domain Address</Form.Label>
                             <Form.Control name="domain_address" type="text" value={form.domain_address}
                                           onChange={handleChange} required/>
                         </Form.Group>
-                        <Form.Group className="mb-3">
+                        <Form.Group className="mb-3 d-block text-start">
                             <Form.Label className='text-dark'>College Address</Form.Label>
                             <Form.Control name="address" as="textarea" value={form.address} onChange={handleChange}
                                           required/>
                         </Form.Group>
-                        <Form.Group className="mb-3">
+                        <Form.Group className="mb-3 d-block text-start">
                             <Form.Label className='text-dark'>College Contact Number</Form.Label>
                             <Form.Control name="contact_no" type="text" value={form.contact_no} onChange={handleChange}
                                           required/>

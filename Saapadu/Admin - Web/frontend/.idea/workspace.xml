@@ -2,26 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5283da38-1eda-4986-8685-0e9a5c16bbb6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/android/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/firebase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/ios/Runner/GoogleService-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/create_shop.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/firebase_options.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/lib/firebase_options.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/home_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/quantity_manager.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/signin_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/signup_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/lib/stock.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Admin/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Admin/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../User/android/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../User/android/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../User/ios/Runner/GoogleService-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../User/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../User/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../User/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../User/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Admin - Web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/BackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/FirebaseConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/SignUpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/service/DashboardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/service/SignInService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/com/saapadu/admin/service/SignUpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/resources/serviceAccountKey.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/test/java/com/saapadu/admin/BackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.development" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignInPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignInPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUpPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUpPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StatsTile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StatsTile.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +47,9 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="31ty7AevamztPg7Ahb69BJteliX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,16 +59,21 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/SHYAM/Documents/Saapadu Groups/Saapadu/Admin - Web/frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
+    "npm.npm start.executor": "Run",
+    "show.migrate.to.gradle.popup": "false",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -103,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756357495819</updated>
       <workItem from="1756357497030" duration="419000" />
+      <workItem from="1756536662147" duration="35000" />
     </task>
     <servers />
   </component>

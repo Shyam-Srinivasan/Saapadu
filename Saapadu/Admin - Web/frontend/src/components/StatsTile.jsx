@@ -21,7 +21,7 @@ export const StatsTile = ({
         const fetchData = async () => {
 
             if (!college?.id) return;
-            const API = process.env.REACT_APP_API_BASE;
+            const API = `http://${window.location.hostname}:8080`;
 
             let API_BASE;
             if (name === "Total Orders") {
@@ -30,7 +30,7 @@ export const StatsTile = ({
                 API_BASE = `${API}/home/pending-orders`;
             } else if (name === "Completed Orders") {
                 API_BASE = `${API}/home/completed-orders`;
-            } else if(name === "Total Revenue"){
+            } else if (name === "Total Revenue") {
                 API_BASE = `${API}/home/total-revenue`;
             }
             try {

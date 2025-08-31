@@ -1,4 +1,4 @@
-package com.saapadu.admin;
+package com.saapadu.admin.backend.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
